@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Valentine 💖</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 520px;   /* TO HƠN */
+  max-height: 90vh;
+  background: white;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+  text-align: center;
+  overflow-y: auto; /* CHO SCROLL */
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ff3f6c;
+  margin-bottom: 25px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  width: 140px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+#yesBtn {
+  background: #ff3f6c;
+  color: white;
+}
+
+#noBtn {
+  background: #e0e0e0;
+}
+
+#page2 {
+  display: none;
+}
+
+.letter {
+  margin-top: 25px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.line {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: 0.6s ease;
+  margin-bottom: 12px;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card" id="page1">
+  <img src="nhinguyen.png">
+  <h1>Will you be my Valentine? 💖</h1>
+
+  <div class="button-wrapper">
+    <button id="yesBtn">YES</button>
+    <button id="noBtn">NO</button>
+  </div>
+</div>
+
+<div class="card" id="page2">
+  <img src="dogmeme.png">
+  <h1>YOU ARE MY VALENTINE ❤️</h1>
+  <div id="letter" class="letter"></div>
+</div>
+
+<script src="./effects.js"></script>
+<script src="./valentine.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
