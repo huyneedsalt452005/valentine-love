@@ -7,21 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const letterDiv = document.getElementById("letter");
   
     const lines = [
-      "Valentine này anh không ở cạnh em.",
-      "Không có hoa để đưa tận tay.",
-      "Không có cái ôm sau một ngày dài.",
-      "Chỉ có một màn hình và một khoảng cách khá xa giữa hai đứa.",
-      "",
-      "Nhưng yêu xa không phải là thiếu nhau,",
-      "mà là đang cố gắng vì nhau.",
-      "",
-      "Anh không hứa điều gì quá lớn.",
-      "Chỉ hứa sẽ vẫn ở đây,",
-      "vẫn thương em theo cách bình tĩnh và bền bỉ nhất.",
-      "",
-      "Rồi sẽ có một Valentine khác,",
-      "không còn là yêu xa nữa."
-    ];
+  "Valentine này anh không ở cạnh em, và anh biết điều đó không dễ chịu chút nào. Nhưng khoảng cách không làm anh yêu em ít đi, chỉ làm anh ý thức rõ hơn mình trân trọng em thế nào. Có những ngày mệt mỏi, chỉ cần nghĩ đến việc cả hai đang cùng cố gắng cho tương lai chung là anh thấy mọi thứ đáng giá. Anh không hứa những điều to tát, chỉ hứa sẽ luôn nghiêm túc với tình cảm này, luôn chọn em — kể cả khi không dễ dàng. Rồi sẽ có một ngày mình không cần nói chuyện qua màn hình nữa, mà chỉ cần quay sang là thấy nhau."
+];
+
   
     function teleportNo() {
       const maxX = window.innerWidth - noBtn.offsetWidth;
