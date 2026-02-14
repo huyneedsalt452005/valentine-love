@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const letterDiv = document.getElementById("letter");
   
     const lines = [
-  "Valentine này anh không ở cạnh em, và anh biết điều đó không dễ chịu chút nào. Nhưng khoảng cách không làm anh yêu em ít đi, chỉ làm anh ý thức rõ hơn mình trân trọng em thế nào. Có những ngày mệt mỏi, chỉ cần nghĩ đến việc cả hai đang cùng cố gắng cho tương lai chung là anh thấy mọi thứ đáng giá. Anh không hứa những điều to tát, chỉ hứa sẽ luôn nghiêm túc với tình cảm này, luôn chọn em — kể cả khi không dễ dàng. Rồi sẽ có một ngày mình không cần nói chuyện qua màn hình nữa, mà chỉ cần quay sang là thấy nhau."
+  "Valentine này anh không ở cạnh em, anh biết em buồn lắm. Nhưng anh mong em luôn nhớ rằng khoảng cách không làm anh yêu em ít đi, chỉ làm anh ý thức rõ hơn mình trân trọng em thế nào. Có những ngày mệt mỏi, chỉ cần nghĩ đến em là anh thấy vui lên mà tiếp tục cố gắng. Anh mong cả hai cùng cố gắng cho tương lai để mình cùng nhau đi lên haaa. Anh không hứa những điều to tát, chỉ hứa sẽ luôn nghiêm túc với tình cảm này, luôn chọn em, kể cả khi không dễ dàng. Rồi sẽ có một ngày mình không cần nói chuyện qua màn hình nữa, mà chỉ cần quay sang là thấy nhau."
 ];
 
   
